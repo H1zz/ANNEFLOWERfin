@@ -1,0 +1,160 @@
+#Mobile_header {
+  display: none;
+}
+#Web_header {
+  display: block;
+  #Nav1 {
+    margin: 1vw 10vw;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      background-color: var(--pink);
+      list-style: none;
+      width: auto;
+      border-right: 1px dashed white;
+      border-radius: 3px;
+      a {
+        color: white;
+        font-size: 1vw;
+        padding: 0 5px;
+      }
+      a:hover {
+        background-color: #f8d1de;
+        color: black;
+      }
+    }
+    img {
+      height: 2vw;
+      width: auto;
+      background-color: white;
+    }
+    #Search {
+      margin: 1vw;
+      margin: auto 0;
+      width: 15vw;
+      // height: 25px;
+      border: none;
+      border-bottom: 1px black solid;
+    }
+  }
+  #Nav2 {
+    height: 8vw;
+    width: 80vw;
+    margin: 1vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    #Nav2_1 {
+      align-items: center;
+      display: flex;
+      li {
+        height: 8vw;
+        justify-content: space-between;
+        width: 7vw;
+        a {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          line-height: 8vw;
+        }
+        a:hover{
+          color: red;
+        }
+      }
+      img {
+        width: 8vw;
+      }
+    }
+    #Nav2_2 {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      
+      li {
+        width: 20%;
+        height: 8vw;
+        a {
+          white-space:nowrap;
+          width: 100%;
+          text-align: center;
+          background-color: black;
+          display: inline-block;
+          line-height: 8vw;
+          color: white;
+        }
+        a:hover{
+          color: red;
+        }
+      }
+    }
+  }
+  #Web_Banner {
+    
+    margin: 15px 10vw;
+    position: relative;
+    #Btn_Box {
+      .Btn {
+        cursor: pointer;
+        position: absolute;
+        z-index: 5;
+        border-radius: 2.5vw;
+        width: 5vw;
+        height: 5vw;
+        object-fit: contain;
+        // background-color: lightgray;
+        top: 10vw;
+      }
+      .Btn:hover{       
+        background-color: lightgray; 
+      }
+      .LeftBtn {
+        left: 1vw;
+      }
+      .RightBtn {
+        right: 1vw;
+      }
+    }
+    #Web_ImgBox {   
+      height: 25vw;
+        #web_Banner_01 {
+          // height: 1vw;
+          // width: 100%;
+          width: 80vw;
+          height: 100%;
+          object-fit: cover;
+        }
+    }
+  }
+  #OpenMenu{
+    z-index: 6;
+    position: absolute;
+    top: 13vw;
+    line-height:3vw;
+    width: 80vw;
+    margin: 0 10vw;
+    display: flex;
+    background-color: rgba($color: #d1d1d1, $alpha: 0.95);
+    #sort1{
+      width: 50%;
+      li{
+        cursor: pointer;
+        a{
+          color: black;
+        }
+      }
+      li:hover{
+        color: red;
+      }
+    }
+    #sort2{
+      width: 50%;
+      li{
+        cursor: pointer;
+      }
+      li:hover{
+        color: red;
+      }
+    }
+  }
+}
+

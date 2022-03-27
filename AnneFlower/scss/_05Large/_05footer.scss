@@ -1,0 +1,31 @@
+#Mobile_footer {
+  display: none;
+}
+#Web_footer{
+  background-color: lightgray;
+  margin: 0 10vw;
+  display: block;
+  padding: 0 2vw;
+  #ftone{
+    display: flex;
+    justify-content: space-between;
+    li{
+      font-size: 1vw;
+      cursor: pointer;
+    }
+    li:hover{
+      color: red;
+    }
+  }
+  #fttwo{
+    display: flex;
+    justify-content: space-between;
+    li{
+      font-size: 1vw;
+      cursor: pointer;
+    }
+    li:hover{
+      color: red;
+    }
+  }
+}
